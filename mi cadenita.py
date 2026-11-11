@@ -1,0 +1,19 @@
+nombre="javier"
+frase="goku es hermoso"
+print(nombre)
+print(frase)
+print(nombre.upper())
+print(frase.upper())
+print(frase.lower())
+print(nombre.lower())
+letra=frase[5]
+print(letra)
+frase2="goku-es-hermoso"
+print(frase2.split("_"))
+nombrec="yo"
+letras1=nombrec[0:2]
+print(letras1)
+nuevafrase=frase.replace("hermoso","maravilloso")
+print(nuevafrase)
+largocadenas=len(nuevafrase)
+print(largocadenas)
